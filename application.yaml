@@ -9,9 +9,9 @@ spec:
     server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: guestbook
-    repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
-    targetRevision: master
+    path: manifests
+    repoURL: "https://github.com/krushnasontakke-dev/argocd-demo-app.git"
+    targetRevision: main
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
